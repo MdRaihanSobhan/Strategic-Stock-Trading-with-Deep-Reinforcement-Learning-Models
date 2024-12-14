@@ -9,4 +9,6 @@
 - SNP500 Dataset
 - Cleandata bug fix
 - Graph analysis
+- New Reward Functions
+- kwargs - 2 parameters sort out
 - Write Ups
