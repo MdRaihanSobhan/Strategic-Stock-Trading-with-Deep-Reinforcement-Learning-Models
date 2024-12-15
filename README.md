@@ -6,7 +6,6 @@
 
 ## Tasks to be done
 - New Algorithm (DRL)
-- SNP500 Dataset
 - Cleandata bug fix
 - Graph analysis
 - New Reward Functions
