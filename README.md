@@ -65,8 +65,10 @@ conditions.
 
 ## Tasks to be done
 - New Algorithm (DRL)
-- Cleandata bug fix
 - Graph analysis
-- New Reward Functions
-- kwargs - 2 parameters sort out
+- New Reward Functions 
+- 
 - Write Ups
+- Cleandata bug 
+- kwargs - 2 parameters sort out
+
