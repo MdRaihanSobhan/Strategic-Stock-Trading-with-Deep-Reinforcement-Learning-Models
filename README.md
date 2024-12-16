@@ -15,16 +15,17 @@ environments.
 
 ## Datasets for Model Training
 
-### Primary Dataset:
+### Datasets Used:
 
-[Dhaka Stock Exchange Dataset (DSEBD)](https://www.kaggle.com/datasets/mahmudulhaque/dsebd): Daily stock price data from the
-Dhaka Stock Exchange, providing insights into a growing emerging market.
-### Additional International Datasets:
-- [SP 500 Stock Data](https://www.kaggle.com/datasets/paultimothymooney/stock-market-data): Covers daily prices for SP 500 stocks, offering a view
-into a mature market.
+- [Bangladesh | Dhaka Stock Exchange Dataset (DSEBD)](https://www.kaggle.com/datasets/mahmudulhaque/dsebd): Daily stock price data from the Dhaka Stock Exchange, providing insights into a growing emerging market.
+- [India | NIFTY-50 Stock Market Data (2000 - 2021)](https://www.kaggle.com/datasets/rohanrao/nifty50-stock-market-data?select=BHARTIARTL.csv)
+- [US | USA 514 Stocks Prices NASDAQ NYSE](https://www.kaggle.com/datasets/olegshpagin/usa-stocks-prices-ohlcv/data)
+
+### Additional International Datasets That Can Be Used in Future Iterations:
+- [SP 500 Stock Data](https://www.kaggle.com/datasets/paultimothymooney/stock-market-data): Covers daily prices for SP 500 stocks, offering a view into a mature market.
 - [US Stocks and ETFs Price and Volume Data](https://www.kaggle.com/datasets/borismarjanovic/price-volume-data-for-all-us-stocks-etfs): Includes comprehensive price and volume data across all US stocks and ETFs.
-- [Brazilian Stock Market](https://www.kaggle.com/datasets/andrewmvd/brazilian-stock-market) - Daily Updated
-Indian Stock Market Index Intraday Data(2008-2020)
+- [Brazilian Stock Market](https://www.kaggle.com/datasets/andrewmvd/brazilian-stock-market Daily Updated
+- Indian Stock Market Index Intraday Data(2008-2020)
 
 
 ## Reference Papers :
@@ -38,37 +39,37 @@ Trading in Quantitative Finance
 - This function not only maximizes profits but also carefully considers the level of risk taken, ensuring a balanced strategy that prioritizes sustainable growth while minimizing potential losses.
 
 ## Key Techniques:
+- A2C (Advantage Actor-Critic) for efficient exploration. 
+- DDPG (Deep Deterministic Policy Gradient) for continuous action spaces. 
 - Proximal Policy Optimization (PPO) for stability in
 decision-making.
-- Twin Delayed DDPG (TD3) to manage volatility and improve
+- TD3 (Twin Delayed DDPG) to manage volatility and improve
 accuracy.
-- Trust Region Policy Optimization (TRPO) for stable and
-conservative policy updates.
-- Ensemble of DRL models for robust adaptability across market
-conditions.
+- SAC (Soft Actor-Critic) for robustness and adaptability.
+- MVO (Mean-Variance Optimization) for Bechmarking. 
 
 ## Performance Metrics
-
 - Initial and Final Portfolio Value
 - Annualized Return
 - Annualized Standard Deviation
 - Sharpe Ratio
 - Max Drawdown
 - Sortino Ratio
+- Volatility
+- Profitability
+- Aggressiveness
+- Recovery Time
 
 
 ## How to Run This Code
-- Run the jupyter notebooks , install required libraries. 
+- Run the jupyter notebooks , install required libraries.
+    - [DSE](/dse.ipynb)
+    - [NIFTY](/nifty.ipynb)
+    - [SNP_500](/snp500.ipynb)
+
 - Update dataset paths, with your local path <br> 
-` dir = r"/Users/md.raihansobhan/Desktop/BUET/4-2 Sessionals/CSE 472 | ML/online_class/Strategic-Stock-Trading-with-Deep-Reinforcement-Learning-Models/datasets/kaggle-dse" `
 
 
 ## Tasks to be done
-- New Algorithm (DRL)
-- Graph analysis
-- New Reward Functions 
-- 
 - Write Ups
-- Cleandata bug 
-- kwargs - 2 parameters sort out
-
+- Cleandata bug fix
