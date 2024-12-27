@@ -70,6 +70,9 @@ accuracy.
 - Update dataset paths, with your local path <br> 
 
 
+### Report 
+- Read the [Report](/Project_Report.pdf) to get a detailed overview of the project.
+
 ## Tasks to be done
 - Write Ups
-- Cleandata bug fix
+- Cleandata function
