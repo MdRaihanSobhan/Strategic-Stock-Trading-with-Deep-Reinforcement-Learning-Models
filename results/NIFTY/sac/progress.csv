@@ -1,2 +1,2 @@
-train/n_updates,time/time_elapsed,train/critic_loss,train/ent_coef_loss,train/actor_loss,time/fps,train/learning_rate,train/reward,time/episodes,train/ent_coef,time/total_timesteps
-16839,287,844.3013305664062,-22.488285064697266,593.4266357421875,58,0.0001,9.83674,4,0.12527504563331604,16940
+train/ent_coef,time/total_timesteps,time/fps,train/reward,train/critic_loss,train/n_updates,train/ent_coef_loss,train/learning_rate,time/time_elapsed,time/episodes,train/actor_loss
+0.31344103813171387,16940,70,1.5338035,4056.4462890625,16839,-1.9614826440811157,0.0001,239,4,848.3619384765625

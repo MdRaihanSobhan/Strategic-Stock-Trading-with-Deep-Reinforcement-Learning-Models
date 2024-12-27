@@ -1,5 +1,2 @@
-time/total_timesteps,train/n_updates,time/episodes,time/time_elapsed,time/fps,train/learning_rate,train/critic_loss,train/actor_loss,train/reward
-10424,10323,4,936,11,0.001,9.61305046081543,12.476783752441406,0.32806
-20848,20747,8,1077,19,0.001,4.494490623474121,18.011817932128906,0.32806
-31272,31171,12,6129,5,0.001,2.7185726165771484,20.790666580200195,0.32806
-41696,41595,16,6265,6,0.001,1.6118178367614746,25.261640548706055,0.32806
+train/actor_loss,train/learning_rate,train/reward,time/episodes,time/fps,time/time_elapsed,time/total_timesteps,train/critic_loss,train/n_updates
+14.784296989440918,0.001,0.62712,4,75,138,10424,1.9699705839157104,10323
